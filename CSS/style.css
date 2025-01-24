@@ -1,0 +1,66 @@
+body{
+    background-image: url("./imges/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    direction: rtl;
+    }
+    header {
+        background-color: #000000a5;
+        color: rgb(0, 0, 0);
+        padding: 30px 0px;
+        text-align: center;
+    }
+    select{
+        outline: none;
+        cursor: pointer;
+    }
+    #time .contanier div{
+    text-align: center;
+    border-radius: 12px;
+        background-color: #ffffff;
+    }
+    #time .contanier div h1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    }
+    #time .contanier div p{
+    font-weight: bold;
+    padding: 20px;
+    font-size: xx-large;
+    }
+    .times{
+    transform: scale(1);
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-animation: scale-up-right 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-right 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+        @-webkit-keyframes scale-up-right {
+            0% {
+            -webkit-transform: scale(0.5);
+                    transform: scale(0.5);
+            -webkit-transform-origin: 100% 50%;
+                    transform-origin: 100% 50%;
+            }
+            100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            -webkit-transform-origin: 100% 50%;
+                    transform-origin: 100% 50%;
+            }
+        }
+        @keyframes scale-up-right {
+            0% {
+            -webkit-transform: scale(0.5);
+                    transform: scale(0.5);
+            -webkit-transform-origin: 100% 50%;
+                    transform-origin: 100% 50%;
+            }
+            100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            -webkit-transform-origin: 100% 50%;
+                    transform-origin: 100% 50%;
+            }
+        }
