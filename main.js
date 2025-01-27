@@ -1,12 +1,12 @@
 
   let Governorates = [
     {
-      arabicName: "القاهرة",
-      name: "Cairo",
-    },
-    {
       arabicName: "الإسكندرية",
       name: "Alexandria",
+    },
+    {
+      arabicName: "القاهرة",
+      name: "Cairo",
     },
     {
       arabicName: "الجيزة",
@@ -89,7 +89,7 @@
     alert("Error In Request: " + error);
   });
 }
-getTime("Cairo");
+getTime("Alexandria");
 // function clicked(Cname,el) {
 //   getTime(Cname);
 //   let active = document.getElementsByClassName("active");
